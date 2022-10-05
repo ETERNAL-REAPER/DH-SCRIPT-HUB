@@ -1,0 +1,49 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("ATOMIC da hood scripts", "DarkTheme")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("Swagmode", "Your lying if you say you dont know this script", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+    end)
+
+    MainSection:NewButton("Destiny", "Multi function gui with shazam lightning", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/compwnter/destiny/main/loader"))()
+    end)
+
+    MainSection:NewButton("Encrypt", "Anything you could imagine", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/1/dahoodencrypt.lua"))()
+    end)
+
+    MainSection:NewButton("ZAPPED", "Muti use gui", function()
+        loadstring(game:HttpGet('https://ekso.gq/raw/relases/zapped.lua'))()
+    end)
+
+
+    --Tools for selling dhc
+    local Dhc = Window:NewTab("Dhc")
+    local DhcSection = Dhc:NewSection("Dhc")
+
+    DhcSection:NewButton("Dhc selling gui", "Teleports, notifications, auto drop, selling calculator", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Crostide/cdhc/main/gui"))()
+    end)
+
+
+    --Server crashers
+    local Crashers = Window:NewTab("Crashers")
+    local CrashersSection = Crashers:NewSection("Crashers")
+
+    CrashersSection:NewButton("Swagmode crasher", "Crew Crash recomended", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+    end)
+
+
+    --Misc
+    local Misc = Window:NewTab("Misc")
+    local MiscSection = Misc:NewSection("Misc")
+
+    MiscSection:NewButton("Client sided avatar editor", "Client sided avatar editor", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackerProLuaStuff/avatar-editor-thing/main/headless.lua"))()
+    end)
